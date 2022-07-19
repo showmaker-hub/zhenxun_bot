@@ -1,0 +1,810 @@
+{
+    "update_info": {
+        "plugin_name": "更新信息",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "admin_help": {
+        "plugin_name": "管理帮助 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "admin_config": {
+        "plugin_name": "群管理员变动监测 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "update_group_member_info": {
+        "plugin_name": "更新群组成员列表 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "custom_welcome_message": {
+        "plugin_name": "自定义进群欢迎消息 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "switch_rule": {
+        "plugin_name": "群功能开关 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "chat_message_handle": {
+        "plugin_name": "消息统计",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "invite_manager": {
+        "plugin_name": "好友群聊处理请求 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "ban": {
+        "plugin_name": "封禁Ban用户 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "my_props": {
+        "plugin_name": "商店 - 我的道具",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "gold": {
+        "plugin_name": "商店 - 我的金币",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "use": {
+        "plugin_name": "商店 - 使用道具",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "shop_handle": {
+        "plugin_name": "商店",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "buy": {
+        "plugin_name": "商店 - 购买道具",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "manager_group": {
+        "plugin_name": "管理群操作 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "nickname": {
+        "plugin_name": "昵称系统",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "russian": {
+        "plugin_name": "俄罗斯轮盘",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "delete_image": {
+        "plugin_name": "删除图片 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "move_image": {
+        "plugin_name": "移动图片 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "upload_image": {
+        "plugin_name": "上传图片 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "send_image": {
+        "plugin_name": "本地图库",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "aconfig": {
+        "plugin_name": "基本设置 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "nbnhhsh": {
+        "plugin_name": "能不能好好说话",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "search_anime": {
+        "plugin_name": "搜番",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "epic": {
+        "plugin_name": "epic免费游戏",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "AkashiCoin",
+        "version": 0.1
+    },
+    "translate": {
+        "plugin_name": "翻译",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "send_dinggong_voice": {
+        "plugin_name": "骂我",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "update_gocqhttp": {
+        "plugin_name": "更新gocq [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "luxun": {
+        "plugin_name": "鲁迅说",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "withdraw": {
+        "plugin_name": "消息撤回 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "open_cases": {
+        "plugin_name": "开箱",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "poke": {
+        "plugin_name": "戳一戳",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "pid_search": {
+        "plugin_name": "pid搜索",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "bilibili_sub": {
+        "plugin_name": "B站订阅",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier & NumberSir",
+        "version": 0.1
+    },
+    "pix": {
+        "plugin_name": "PIX",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "weather": {
+        "plugin_name": "天气查询",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "pixiv_rank_search": {
+        "plugin_name": "P站排行\/搜图",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "about": {
+        "plugin_name": "关于",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "music": {
+        "plugin_name": "点歌",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "word_hanlde": {
+        "plugin_name": "词库问答 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier & yajiwa",
+        "version": 0.3
+    },
+    "mute": {
+        "plugin_name": "刷屏禁言 [Admin]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "word_clouds": {
+        "plugin_name": "词云",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "yajiwa",
+        "version": 0.1
+    },
+    "fake_msg": {
+        "plugin_name": "构造分享消息",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "wbtop": {
+        "plugin_name": "微博热搜",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier & yajiwa",
+        "version": 0.2
+    },
+    "gold_redbag": {
+        "plugin_name": "金币红包",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "send_setu": {
+        "plugin_name": "色图",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "my_info": {
+        "plugin_name": "个人信息权限查看",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "group_welcome_msg": {
+        "plugin_name": "查看群欢迎消息",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "update_picture": {
+        "plugin_name": "各种图片简易操作",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "search_image": {
+        "plugin_name": "识图",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "what_anime": {
+        "plugin_name": "识番",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "dialogue": {
+        "plugin_name": "联系管理员",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "search_buff_skin_price": {
+        "plugin_name": "BUFF查询皮肤",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "coser": {
+        "plugin_name": "coser",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "material_remind": {
+        "plugin_name": "原神今日素材",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "query_resource_points": {
+        "plugin_name": "原神资源查询",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "genshin_sign": {
+        "plugin_name": "原神自动签到",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "query_memo": {
+        "plugin_name": "原神便笺查询",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "resin_remind": {
+        "plugin_name": "原神树脂提醒",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "query_role": {
+        "plugin_name": "原神玩家查询",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "bind": {
+        "plugin_name": "原神绑定",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "white2black_image": {
+        "plugin_name": "黑白草图",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "comments_163": {
+        "plugin_name": "网易云热评",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "cover": {
+        "plugin_name": "b封面",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "jitang": {
+        "plugin_name": "鸡汤",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "poetry": {
+        "plugin_name": "古诗",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "quotations": {
+        "plugin_name": "一言二次元语录",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "yiqing": {
+        "plugin_name": "疫情查询",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier & yzyyz1387",
+        "version": 0.1
+    },
+    "statistics_handle": {
+        "plugin_name": "功能调用统计可视化",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "bt": {
+        "plugin_name": "磁力搜索",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "roll": {
+        "plugin_name": "roll",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "sign_in": {
+        "plugin_name": "签到",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "super_help": {
+        "plugin_name": "超级用户帮助 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": null
+    },
+    "chat_message": {
+        "plugin_name": "消息存储 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "broadcast": {
+        "plugin_name": "广播 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "group_handle": {
+        "plugin_name": "群事件处理 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "plugin_shop": {
+        "plugin_name": "插件商店 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "exec_sql": {
+        "plugin_name": "执行sql [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "super_task_switch": {
+        "plugin_name": "超级用户被动开关 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "bot_friend_group": {
+        "plugin_name": "显示所有好友群组 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "update_friend_group_info": {
+        "plugin_name": "更新群\/好友信息 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "reload_setting": {
+        "plugin_name": "重载插件配置 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "set_admin_permissions": {
+        "plugin_name": "用户权限管理 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "clear_data": {
+        "plugin_name": "清理临时数据 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "help": {
+        "plugin_name": "帮助",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": null
+    },
+    "parse_bilibili_json": {
+        "plugin_name": "B站转发解析",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "check_zhenxun_update": {
+        "plugin_name": "自动更新 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "pix_add_keyword": {
+        "plugin_name": "PIX关键词\/UID\/PID添加管理 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "pix_update": {
+        "plugin_name": "pix检查更新 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "pix_pass_del_keyword": {
+        "plugin_name": "PIX关键词\/UID\/PID删除管理 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "pix_show_info": {
+        "plugin_name": "查看pix图库",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "update_setu": {
+        "plugin_name": "更新色图 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "check": {
+        "plugin_name": "服务器自我检查 [Superuser]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "black_word": {
+        "plugin_name": "敏感词检测",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "one_friend": {
+        "plugin_name": "我有一个朋友",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "fudu": {
+        "plugin_name": "复读",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "apscheduler": {
+        "plugin_name": "定时任务相关 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "ai": {
+        "plugin_name": "AI",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "message_handle": {
+        "plugin_name": "词库问答回复操作 [Hidden]",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": null
+    },
+    "almanac": {
+        "plugin_name": "原神老黄历",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    },
+    "draw_card": {
+        "plugin_name": "游戏抽卡",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "HibiKier",
+        "version": 0.1
+    }
+}

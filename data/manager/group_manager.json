@@ -1,0 +1,71 @@
+{
+    "super": {
+        "white_group_list": []
+    },
+    "group_manager": {
+        "278126057": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "broadcast": true,
+                "group_welcome": true,
+                "refund_group_remind": true,
+                "open_case_reset_remind": true,
+                "bilibili_parse": true,
+                "epic_free_game": true,
+                "zwa": true,
+                "fudu": true,
+                "genshin_alc": true
+            }
+        },
+        "1001589437": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "open_case_reset_remind": true,
+                "epic_free_game": true,
+                "group_welcome": true,
+                "refund_group_remind": true,
+                "broadcast": true,
+                "bilibili_parse": true,
+                "zwa": true,
+                "fudu": true,
+                "genshin_alc": true
+            }
+        },
+        "749309007": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "open_case_reset_remind": true,
+                "epic_free_game": true,
+                "broadcast": true,
+                "group_welcome": true,
+                "refund_group_remind": true,
+                "bilibili_parse": true,
+                "zwa": true,
+                "fudu": true,
+                "genshin_alc": true
+            }
+        },
+        "690818834": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "open_case_reset_remind": true,
+                "epic_free_game": true,
+                "group_welcome": true,
+                "refund_group_remind": true,
+                "broadcast": true,
+                "bilibili_parse": true,
+                "zwa": true,
+                "fudu": true,
+                "genshin_alc": true
+            }
+        }
+    }
+}

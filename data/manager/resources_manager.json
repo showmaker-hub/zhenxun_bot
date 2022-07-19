@@ -1,0 +1,11 @@
+{
+    "send_image": {
+        "\/usr\/local\/zhenxun_bot\/plugins\/image_management\/send_image\/pa": "\/usr\/local\/zhenxun_bot\/resources\/image\/pa"
+    },
+    "open_cases": {
+        "\/usr\/local\/zhenxun_bot\/plugins\/open_cases\/cases": "\/usr\/local\/zhenxun_bot\/resources\/image"
+    },
+    "gold_redbag": {
+        "\/usr\/local\/zhenxun_bot\/plugins\/gold_redbag\/prts": "\/usr\/local\/zhenxun_bot\/resources\/image"
+    }
+}

@@ -1,0 +1,834 @@
+group_manager:
+  DEFAULT_GROUP_LEVEL:
+    value: 5
+    name:
+    help: 默认群权限
+    default_value: 5
+    level_module:
+  DEFAULT_GROUP_BOT_STATUS:
+    value: true
+    name:
+    help: 默认进群总开关状态
+    default_value: true
+    level_module:
+admin_bot_manage:
+  SET_GROUP_WELCOME_MESSAGE_LEVEL:
+    value: 2
+    name: 群管理员操作
+    help: 设置群欢迎消息权限
+    default_value: 2
+    level_module: custom_welcome_message
+  CHANGE_GROUP_SWITCH_LEVEL:
+    value: 2
+    name:
+    help: 开关群功能权限
+    default_value: 2
+    level_module: switch_rule
+  ADMIN_DEFAULT_AUTH:
+    value: 5
+    name:
+    help: 默认群管理员权限
+    default_value: 5
+    level_module:
+chat_history:
+  FLAG:
+    value: true
+    name: 消息存储
+    help: 是否开启消息自从存储
+    default_value: true
+    level_module:
+_task:
+  DEFAULT_BROADCAST:
+    value: true
+    name:
+    help: 被动 广播 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_GROUP_WELCOME:
+    value: true
+    name:
+    help: 被动 进群欢迎 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_REFUND_GROUP_REMIND:
+    value: true
+    name:
+    help: 被动 退群提醒 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_ZWA:
+    value: true
+    name:
+    help: 被动 早晚安 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_PA:
+    value: true
+    name:
+    help: 被动 爬 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_EPIC_FREE_GAME:
+    value: true
+    name:
+    help: 被动 epic免费游戏 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_BILIBILI_PARSE:
+    value: true
+    name:
+    help: 被动 B站转发解析 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_OPEN_CASE_RESET_REMIND:
+    value: true
+    name:
+    help: 被动 每日开箱重置提醒 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_GENSHIN_ALC:
+    value: true
+    name:
+    help: 被动 原神黄历提醒 进群默认开关状态
+    default_value: true
+    level_module:
+  DEFAULT_FUDU:
+    value: true
+    name:
+    help: 被动 复读 进群默认开关状态
+    default_value: true
+    level_module:
+invite_manager:
+  MESSAGE:
+    value: 请不要未经同意就拉小真寻入群！告辞！
+    name:
+    help: 强制拉群后进群回复的内容..
+    default_value:
+    level_module:
+  FLAG:
+    value: true
+    name:
+    help: 被强制拉群后是否直接退出
+    default_value: true
+    level_module:
+  WELCOME_MSG_CD:
+    value: 5
+    name:
+    help: 群欢迎消息cd
+    default_value: 5
+    level_module:
+  AUTO_ADD_FRIEND:
+    value: false
+    name:
+    help: 是否自动同意好友添加
+    default_value: false
+    level_module:
+_backup:
+  BACKUP_FLAG:
+    value: true
+    name:
+    help: 是否开启文件备份
+    default_value: true
+    level_module:
+  BACKUP_DIR_OR_FILE:
+    value:
+    - data/black_word
+    - data/configs
+    - data/statistics
+    - data/word_bank
+    - data/manager
+    - configs
+    name: 文件备份
+    help: 备份的文件夹或文件
+    default_value: []
+    level_module:
+hook:
+  CHECK_NOTICE_INFO_CD:
+    value: 300
+    name: 基础hook配置
+    help: 群检测，个人权限检测等各种检测提示信息cd
+    default_value: 300
+    level_module:
+  MALICIOUS_BAN_TIME:
+    value: 30
+    name:
+    help: 恶意命令触发检测触发后ban的时长（分钟）
+    default_value: 30
+    level_module:
+  MALICIOUS_CHECK_TIME:
+    value: 5
+    name:
+    help: 恶意命令触发检测规定时间内（秒）
+    default_value: 5
+    level_module:
+  MALICIOUS_BAN_COUNT:
+    value: 6
+    name:
+    help: 恶意命令触发检测最大触发次数
+    default_value: 6
+    level_module:
+  BAN_RESULT:
+    value: 才不会给你发消息.
+    name:
+    help: 对被ban用户发送的消息
+    default_value:
+    level_module:
+shop:
+  IMPORT_DEFAULT_SHOP_GOODS:
+    value: true
+    name:
+    help: 导入商店自带的三个商品
+    default_value: true
+    level_module:
+image_management:
+  IMAGE_DIR_LIST:
+    value:
+    - 美图
+    - 萝莉
+    - 壁纸
+    name: 图库操作
+    help: 公开图库列表，可自定义添加 [如果含有send_setu插件，请不要添加色图库]
+    default_value: []
+    level_module:
+  WITHDRAW_IMAGE_MESSAGE:
+    value:
+    - 0
+    - 1
+    name: 图库操作
+    help: 自动撤回，参1：延迟撤回发送图库图片的时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+    level_module:
+  DELETE_IMAGE_LEVEL:
+    value: 7
+    name:
+    help: 删除图库图片需要的管理员等级
+    default_value: 7
+    level_module: delete_image
+  MOVE_IMAGE_LEVEL:
+    value: 7
+    name:
+    help: 移动图库图片需要的管理员等级
+    default_value: 7
+    level_module: move_image
+  UPLOAD_IMAGE_LEVEL:
+    value: 6
+    name:
+    help: 上传图库图片需要的管理员等级
+    default_value: 6
+    level_module: upload_image
+  SHOW_ID:
+    value: true
+    name:
+    help: 是否消息显示图片下标id
+    default_value: true
+    level_module:
+alapi:
+  ALAPI_TOKEN:
+    value: zU41TL3lKlgmhpZa
+    name:
+    help: 在 https://admin.alapi.cn/user/login 登录后获取token
+    default_value:
+    level_module:
+hibiapi:
+  HIBIAPI:
+    value: https://api.obfs.dev
+    name:
+    help: 如果没有自建或其他hibiapi请不要修改
+    default_value: https://api.obfs.dev
+    level_module:
+pixiv:
+  PIXIV_NGINX_URL:
+    value: i.pixiv.re
+    name:
+    help: Pixiv反向代理
+    default_value:
+    level_module:
+pix:
+  PIX_IMAGE_SIZE:
+    value: master
+    name: PIX图库
+    help: PIX图库下载的画质 可能的值：original：原图，master：缩略图（加快发送速度）
+    default_value: master
+    level_module:
+  SEARCH_HIBIAPI_BOOKMARKS:
+    value: 5000
+    name:
+    help: 最低收藏，PIX使用HIBIAPI搜索图片时达到最低收藏才会添加至图库
+    default_value: 5000
+    level_module:
+  WITHDRAW_PIX_MESSAGE:
+    value:
+    - 0
+    - 1
+    name:
+    help: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+    level_module:
+  PIX_OMEGA_PIXIV_RATIO:
+    value:
+    - 10
+    - 0
+    name:
+    help: PIX图库 与 额外图库OmegaPixivIllusts 混合搜索的比例 参1：PIX图库 参2：OmegaPixivIllusts扩展图库（没有此图库请设置为0）
+    default_value:
+    - 10
+    - 0
+    level_module:
+  TIMEOUT:
+    value: 10
+    name:
+    help: 下载图片超时限制（秒）
+    default_value: 10
+    level_module:
+  SHOW_INFO:
+    value: true
+    name:
+    help: 是否显示图片的基本信息，如PID等
+    default_value: true
+    level_module:
+  MAX_ONCE_NUM2FORWARD:
+    value:
+    name:
+    help: 单次发送的图片数量达到指定值时转发为合并消息
+    default_value:
+    level_module:
+  ALLOW_GROUP_SETU:
+    value: false
+    name:
+    help: 允许非超级用户使用-s参数
+    default_value: false
+    level_module:
+  ALLOW_GROUP_R18:
+    value: false
+    name:
+    help: 允许非超级用户使用-r参数
+    default_value: false
+    level_module:
+word_bank:
+  WORD_BANK_LEVEL [LEVEL]:
+    value: 5
+    name: 词库问答
+    help: 设置增删词库的权限等级
+    default_value: 5
+    level_module:
+  WORD_BANK_FUZZY:
+    value: false
+    name:
+    help: 模糊匹配
+    default_value: false
+    level_module:
+  WORD_BANK_KEY:
+    value: true
+    name:
+    help: 关键字匹配
+    default_value: true
+    level_module:
+  WORD_BANK_MIX:
+    value: 25
+    name:
+    help: 查看词条时图片内最多显示条数
+    default_value: 25
+    level_module:
+web-ui:
+  USERNAME:
+    value: admin
+    name: web-ui
+    help: 前端管理用户名
+    default_value:
+    level_module:
+  PASSWORD:
+    value: 123456
+    name: web-ui
+    help: 前端管理密码
+    default_value:
+    level_module:
+word_clouds:
+  WORD_CLOUDS_TEMPLATE:
+    value: 1
+    name:
+    help: 词云模板 参1：图片生成，默认使用真寻图片，可在项目路径resources/image/wordcloud下配置图片，多张则随机 | 参2/其他：黑底图片
+    default_value:
+    level_module:
+draw_card:
+  PRTS_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 明日方舟 抽卡开关
+    default_value: true
+    level_module:
+  GENSHIN_FLAG:
+    value: true
+    name: 游戏抽卡
+    help: 原神 抽卡开关
+    default_value: true
+    level_module:
+  PRETTY_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 赛马娘 抽卡开关
+    default_value: true
+    level_module:
+  GUARDIAN_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 坎公骑冠剑 抽卡开关
+    default_value: true
+    level_module:
+  PCR_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 公主连结 抽卡开关
+    default_value: true
+    level_module:
+  AZUR_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 碧蓝航线 抽卡开关
+    default_value: true
+    level_module:
+  FGO_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 命运-冠位指定（FGO） 抽卡开关
+    default_value: true
+    level_module:
+  ONMYOJI_FLAG:
+    value: true
+    name: 游戏抽卡
+    help: 阴阳师 抽卡开关
+    default_value: true
+    level_module:
+  PCR_TAI:
+    value: false
+    name: 游戏抽卡
+    help: pcr台服卡池 抽卡开关
+    default_value: true
+    level_module:
+  BA_FLAG:
+    value: false
+    name: 游戏抽卡
+    help: 碧蓝档案 抽卡开关
+    default_value: true
+    level_module:
+  SEMAPHORE:
+    value: 5
+    name:
+    help: 异步数据下载数量限制
+    default_value: 5
+    level_module:
+genshin:
+  MHYVERSION:
+    value: 2.11.1
+    name:
+    help:
+    default_value:
+    level_module:
+  SALT:
+    value: xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs
+    name:
+    help:
+    default_value:
+    level_module:
+  N:
+    value: h8w582wxwgqvahcdkpvdhbh2w9casgfl
+    name:
+    help:
+    default_value:
+    level_module:
+  CLIENT_TYPE:
+    value: '5'
+    name:
+    help:
+    default_value:
+    level_module:
+black_word:
+  CYCLE_DAYS:
+    value: 30
+    name: 敏感词检测与惩罚
+    help: 黑名单词汇记录周期
+    default_value: 30
+    level_module:
+  TOLERATE_COUNT:
+    value:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 1
+    name:
+    help: 各个级别惩罚的容忍次数，依次为：1, 2, 3, 4, 5
+    default_value:
+    - 5
+    - 1
+    - 1
+    - 1
+    - 1
+    level_module:
+  AUTO_PUNISH:
+    value: true
+    name:
+    help: 是否启动自动惩罚机制
+    default_value: true
+    level_module:
+  BAN_4_DURATION:
+    value: 360
+    name:
+    help: Union[int, List[int, int]]Ban时长（分钟），四级惩罚，可以为指定数字或指定列表区间(随机)，例如 [30, 360]
+    default_value: 360
+    level_module:
+  BAN_3_DURATION:
+    value: 7
+    name:
+    help: Union[int, List[int, int]]Ban时长（天），三级惩罚，可以为指定数字或指定列表区间(随机)，例如 [7, 30]
+    default_value: 360
+    level_module:
+  WARNING_RESULT:
+    value: 请注意对小真寻的发言内容
+    name:
+    help: 口头警告内容
+    default_value: 请注意对小真寻的发言内容
+    level_module:
+  AUTO_ADD_PUNISH_LEVEL:
+    value: true
+    name:
+    help: 自动提级机制，当周期内处罚次数大于某一特定值就提升惩罚等级
+    default_value: true
+    level_module:
+  ADD_PUNISH_LEVEL_TO_COUNT:
+    value: 3
+    name:
+    help: 在CYCLE_DAYS周期内触发指定惩罚次数后提升惩罚等级
+    default_value: 3
+    level_module:
+  ALAPI_CHECK_FLAG:
+    value: false
+    name:
+    help: 当未检测到已收录的敏感词时，开启ALAPI文本检测并将疑似文本发送给超级用户
+    default_value: false
+    level_module:
+  CONTAIN_BLACK_STOP_PROPAGATION:
+    value: true
+    name:
+    help: 当文本包含任意敏感词时，停止向下级插件传递，即不触发ai
+    default_value: true
+    level_module:
+ban:
+  BAN_LEVEL [LEVEL]:
+    value: 5
+    name:
+    help: ban/unban所需要的管理员权限等级
+    default_value: 5
+    level_module:
+nickname:
+  BLACK_WORD:
+    value:
+    - 爸
+    - 爹
+    - 爷
+    - 父亲
+    name:
+    help: 昵称所屏蔽的关键词，会被替换为 *
+    default_value:
+    level_module:
+russian:
+  MAX_RUSSIAN_BET_GOLD:
+    value: 1000
+    name:
+    help: 俄罗斯轮盘最大赌注金额
+    default_value: 1000
+    level_module:
+search_anime:
+  SEARCH_ANIME_MAX_INFO:
+    value: 20
+    name:
+    help: 搜索动漫返回的最大数量
+    default_value: 20
+    level_module:
+update_gocqhttp:
+  UPDATE_GOCQ_GROUP:
+    value: []
+    name:
+    help: 需要为哪些群更新最新版gocq吗？（上传最新版gocq）示例：[434995955, 239483248]
+    default_value: []
+    level_module:
+open_cases:
+  INITIAL_OPEN_CASE_COUNT:
+    value: 20
+    name:
+    help: 初始每日开箱次数
+    default_value: 20
+    level_module:
+  EACH_IMPRESSION_ADD_COUNT:
+    value: 3
+    name:
+    help: 每 * 点好感度额外增加开箱次数
+    default_value: 3
+    level_module:
+  COOKIE:
+    value:
+    name:
+    help: BUFF的cookie
+    default_value:
+    level_module:
+  BUFF_PROXY:
+    value:
+    name:
+    help: 使用代理访问BUFF
+    default_value:
+    level_module:
+bilibili_sub:
+  GROUP_BILIBILI_SUB_LEVEL:
+    value: 5
+    name:
+    help: 群内bilibili订阅需要管理的权限
+    default_value: 5
+    level_module:
+  LIVE_MSG_AT_ALL:
+    value: false
+    name:
+    help: 直播提醒是否AT全体（仅在真寻是管理员时生效）
+    default_value: false
+    level_module:
+  UP_MSG_AT_ALL:
+    value: false
+    name:
+    help: UP动态投稿提醒是否AT全体（仅在真寻是管理员时生效）
+    default_value: false
+    level_module:
+pixiv_rank_search:
+  TIMEOUT:
+    value: 10
+    name:
+    help: 图片下载超时限制
+    default_value: 10
+    level_module:
+  MAX_PAGE_LIMIT:
+    value: 20
+    name:
+    help: 作品最大页数限制，超过的作品会被略过
+    default_value: 20
+    level_module:
+  ALLOW_GROUP_R18:
+    value: false
+    name:
+    help: 允许群聊中使用 r18 参数
+    default_value: false
+    level_module:
+mute:
+  MUTE_LEVEL [LEVEL]:
+    value: 5
+    name:
+    help: 更改禁言设置的管理权限
+    default_value: 5
+    level_module:
+  MUTE_DEFAULT_COUNT:
+    value: 10
+    name:
+    help: 刷屏禁言默认检测次数
+    default_value: 10
+    level_module:
+  MUTE_DEFAULT_TIME:
+    value: 7
+    name:
+    help: 刷屏检测默认规定时间
+    default_value: 7
+    level_module:
+  MUTE_DEFAULT_DURATION:
+    value: 10
+    name:
+    help: 刷屏检测默禁言时长（分钟）
+    default_value: 10
+    level_module:
+send_setu:
+  WITHDRAW_SETU_MESSAGE:
+    value:
+    - 0
+    - 1
+    name:
+    help: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+    level_module:
+  ONLY_USE_LOCAL_SETU:
+    value: false
+    name:
+    help: 仅仅使用本地色图，不在线搜索
+    default_value: false
+    level_module:
+  INITIAL_SETU_PROBABILITY:
+    value: 0.7
+    name:
+    help: 初始色图概率，总概率 = 初始色图概率 + 好感度
+    default_value: 0.7
+    level_module:
+  DOWNLOAD_SETU:
+    value: true
+    name:
+    help: 是否存储下载的色图，使用本地色图可以加快图片发送速度
+    default_value: true
+    level_module:
+  TIMEOUT:
+    value: 10
+    name:
+    help: 色图下载超时限制(秒)
+    default_value: 10
+    level_module:
+  SHOW_INFO:
+    value: true
+    name:
+    help: 是否显示色图的基本信息，如PID等
+    default_value: true
+    level_module:
+  ALLOW_GROUP_R18:
+    value: true
+    name:
+    help: 在群聊中启用R18权限
+    default_value: false
+    level_module:
+  MAX_ONCE_NUM2FORWARD:
+    value:
+    name:
+    help: 单次发送的图片数量达到指定值时转发为合并消息
+    default_value:
+    level_module:
+search_image:
+  MAX_FIND_IMAGE_COUNT:
+    value: 3
+    name:
+    help: 识图返回的最大结果数
+    default_value: 3
+    level_module:
+  API_KEY:
+    value: acbfbc42d970fa5a0ff5a02dd3d1c521bc262f33
+    name:
+    help: Saucenao的API_KEY，通过 https://saucenao.com/user.php?page=search-api 注册获取
+    default_value:
+    level_module:
+search_buff_skin_price:
+  BUFF_PROXY:
+    value:
+    name:
+    help: BUFF代理，有些厂ip可能被屏蔽
+    default_value:
+    level_module:
+  COOKIE:
+    value:
+    name:
+    help: BUFF的账号cookie
+    default_value:
+    level_module:
+coser:
+  WITHDRAW_COS_MESSAGE:
+    value:
+    - 0
+    - 1
+    name:
+    help: 自动撤回，参1：延迟撤回色图时间(秒)，0 为关闭 | 参2：监控聊天类型，0(私聊) 1(群聊) 2(群聊+私聊)
+    default_value:
+    - 0
+    - 1
+    level_module:
+resin_remind:
+  AUTO_CLOSE_QUERY_FAIL_RESIN_REMIND:
+    value: true
+    name:
+    help: 当请求连续三次失败时，关闭用户的树脂提醒
+    default_value: true
+    level_module:
+  CUSTOM_RESIN_OVERFLOW_REMIND:
+    value: 20
+    name:
+    help: 自定义树脂溢出指定数量时的提醒，空值是为关闭
+    default_value:
+    level_module:
+bt:
+  BT_MAX_NUM:
+    value: 10
+    name:
+    help: 单次BT搜索返回最大消息数量
+    default_value: 10
+    level_module:
+sign_in:
+  MAX_SIGN_GOLD:
+    value: 200
+    name:
+    help: 签到好感度加成额外获得的最大金币数
+    default_value: 200
+    level_module:
+  SIGN_CARD1_PROB:
+    value: 0.2
+    name:
+    help: 签到好感度双倍加持卡Ⅰ掉落概率
+    default_value: 0.2
+    level_module:
+  SIGN_CARD2_PROB:
+    value: 0.09
+    name:
+    help: 签到好感度双倍加持卡Ⅱ掉落概率
+    default_value: 0.09
+    level_module:
+  SIGN_CARD3_PROB:
+    value: 0.05
+    name:
+    help: 签到好感度双倍加持卡Ⅲ掉落概率
+    default_value: 0.05
+    level_module:
+reload_setting:
+  AUTO_RELOAD:
+    value: false
+    name:
+    help: 自动重载配置文件
+    default_value: false
+    level_module:
+  AUTO_RELOAD_TIME:
+    value: 180
+    name:
+    help: 控制自动重载配置文件时长
+    default_value: 180
+    level_module:
+check_zhenxun_update:
+  UPDATE_REMIND:
+    value: true
+    name:
+    help: 真寻是否检测版本状态
+    default_value:
+    level_module:
+  AUTO_UPDATE_ZHENXUN:
+    value: true
+    name:
+    help: 真寻是否自动检查更新
+    default_value:
+    level_module:
+fudu:
+  FUDU_PROBABILITY:
+    value: 0.6
+    name:
+    help: 复读概率
+    default_value: 0.7
+    level_module:
+ai:
+  TL_KEY:
+    value: []
+    name:
+    help: 图灵Key
+    default_value:
+    level_module:
+  ALAPI_AI_CHECK:
+    value: false
+    name:
+    help: 是否检测青云客骂娘回复
+    default_value: false
+    level_module:
+  TEXT_FILTER:
+    value:
+    - 鸡
+    - 口交
+    name:
+    help: 文本过滤器，将敏感词更改为*
+    default_value: []
+    level_module:

@@ -19,14 +19,14 @@ usage：
         示例：5连cos （单次请求张数小于9）
 """.strip()
 __plugin_des__ = "三次元也不戳，嘿嘿嘿"
-__plugin_cmd__ = ["cos/coser"]
+__plugin_cmd__ = ["cos/cosplay"]
 __plugin_version__ = 0.1
 __plugin_author__ = "HibiKier"
 __plugin_settings__ = {
     "level": 5,
     "default_status": True,
     "limit_superuser": False,
-    "cmd": ["cos", "coser", "括丝", "COS", "Cos", "cOS", "coS"],
+    "cmd": ["cos", "coser", "cosplay", "COS", "Cos", "cOS", "coS"],
 }
 __plugin_configs__ = {
     "WITHDRAW_COS_MESSAGE": {

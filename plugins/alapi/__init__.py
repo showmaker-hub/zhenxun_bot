@@ -5,7 +5,7 @@ import nonebot
 Config.add_plugin_config(
     "alapi",
     "ALAPI_TOKEN",
-    None,
+     None,
     help_="在https://admin.alapi.cn/user/login登录后获取token"
 )
 
